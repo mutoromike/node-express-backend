@@ -1,5 +1,7 @@
 const rocks = who => {
-  console.log(who + ' rocks');
+  console.log(who)
 };
 
-setTimeout(rocks, 2 * 1000, 'Pluralsight');
+setTimeout(rocks, 4 * 1000, 'Hello after 4 seconds');
+
+setTimeout(rocks, 8 * 1000, 'Hello after 8 seconds');
