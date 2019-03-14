@@ -4,3 +4,9 @@ const timerId = setTimeout(
 );
 
 clearTimeout(timerId);
+
+
+// Node also has other timer functions:
+//   setImmediate
+//   clearTimeout
+// These are used to clear the timers
