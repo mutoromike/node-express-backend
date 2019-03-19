@@ -1,4 +1,4 @@
-const print = require('../print-frame');
+const print = require('santuri-print-frame');
 
 print('Hello NPM!');
 
